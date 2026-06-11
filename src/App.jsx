@@ -1,16 +1,9 @@
+import Comments from "./components/Comments";
 
-// import { useState } from "react";
-import Dialogue from "./components/Dialogue";
-// import ChatRoom from "./components/ChatRoom";
-function App() {
-  // const [isShow, setIsShow] = useState(true);
+export default function App() {
   return (
     <div>
-      {/* <button onClick={()=>setIsShow(pre=>!pre)}>{ isShow ? 'Hide':'Show'}</button>
-      {isShow && <ChatRoom />} */}
-      <Dialogue/>
+      <Comments id={ 1 } />
     </div>
   )
 }
-
-export default App
