@@ -1,9 +1,9 @@
-import Comments from "./components/Comments";
+import Counter from "./components/Counter";
 
 export default function App() {
   return (
     <div>
-      <Comments id={ 1 } />
+      <Counter/>
     </div>
   )
 }
